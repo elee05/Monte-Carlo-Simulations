@@ -30,7 +30,7 @@ Run the web app on your local machine.
 cd app
 python app.py
 ```
-Then visit the locally running flask website at: http://127.0.0.1:5000
+LocalHost: visit the running flask website at: http://127.0.0.1:5000
 
 ### 2. Command Line
 
