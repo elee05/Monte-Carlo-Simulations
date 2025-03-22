@@ -3,13 +3,6 @@ Stock price predictions using Monte Carlo methods
 
 
 ## Set Up
-**1. Clone repository**
-```
-git clone https://github.com/ryanznie/quant-MC-methods.git
-cd quant-MC-methods
-```
-
-**2. Installation**
 First, run the following command to install the necessary dependencies:
 ```
 source install.sh
@@ -70,19 +63,7 @@ To run simulations, enter in ticker name and desired arguments into `simulate()`
 Stock movements in the simulations are modeled with geometric Brownian motion equations. The parameters are extracted from historical data (Version I: 5 years if mature stock or lifetime if new stock; Version II: Defaults from '2020-01-01' to most recent market). The model follows efficient market hypothesis, and assumes that stock movements are random walks.
 
 
-## Updates:
 
-### IV. 08/17/2023
-Version I of CLI tool. Supports basic functions like: `fetch_data()`, `plot_ts()`, `simulate()`, and `compare_stocks()`.
-
-### III. 11/29/2022
-Version III added. It uses object oriented programming to allow more flexibility and code interpretation.
-
-### II. 06/18/2022
-Version II added. It uses yfinance library from Yahoo Finance instead of Financial Modeling Prep's API. Function docstrings are also updated to improve readability. Historical time frame for data is now flexible for users to choose.
-
-### I. 06/17/2022
-Financial Modeling Prep seems to not offer historical daily data for free anymore. I am working on a new version.
 
 ## References
 * https://www.investopedia.com/articles/07/montecarlo.asp </br>
